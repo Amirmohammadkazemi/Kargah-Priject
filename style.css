@@ -9,7 +9,7 @@ html {
 body {
     margin: 0;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 16px;
     background: #00303e;
 }
 
@@ -206,7 +206,7 @@ pre {
 
 @media (max-width: 768px) {
     body {
-        font-size: 16px;
+        font-size: 17px;
         line-height: 20px;
     }
     .oneliner {
@@ -255,4 +255,18 @@ pre {
         -moz-column-count: 3;
         column-count: 3;
     }
+}
+
+@font-face {
+    font-family: 'Conso';
+    src: url("Conso.woff") format("woff"), url("Conso.ttf") format("truetype");
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Conso';
+    src: url("Conso-Italic.woff") format("woff"), url("Conso-Italic.ttf") format("truetype");
+    font-style: italic;
+    font-stretch: normal;
 }
